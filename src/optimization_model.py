@@ -75,7 +75,7 @@ python
 Copy code
 # main.py
 
-from src.load_data import load_data
+from src.data_processing import load_data
 from src.optimization_model import create_optimization_model
 from pulp import LpStatus
 
